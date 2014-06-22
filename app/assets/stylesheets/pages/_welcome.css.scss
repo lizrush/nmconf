@@ -89,7 +89,7 @@
   }
 
   .grid-item-image {
-    background: url(/images/IMG_2313-small.jpg);
+    background: url(IMG_2313-small.jpg);
     background-color: $grid-item-background;
     background-repeat: no-repeat;
     background-position: top;
@@ -98,10 +98,10 @@
 }
 
 .hero {
-  $hero-background: desaturate(darken($base-accent-color, 20), 30);
+  $hero-background: desaturate(darken($base-accent-color, 20), 80);
   $hero-color: white;
 
-  background: url(/images/lake-transparent.png);
+  background: url(Seattle_Columbia.jpg);
   background-color: $hero-background;
   background-repeat: no-repeat;
   background-position: top;
@@ -122,17 +122,11 @@
     text-align: center;
     color: $hero-color;
 
-    button {
-      @include button(simple, $base-accent-color);
-      font-size: $base-font-size;
-      outline: none;
-    }
-
     .hero-copy {
       text-align: center;
 
       h1 {
-        font-size: 1.4em;
+        font-size: 3em;
         margin-bottom: .2em;
 
         @include media($large-screen) {
