@@ -36,6 +36,7 @@ gem 'bourbon'
 gem 'bitters'
 gem 'neat'
 gem 'refills'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
